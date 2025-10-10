@@ -1,9 +1,11 @@
 import pygame
 
 # C
-COLOR_BLUE = (0, 15, 140)
-COLOR_WHITE = (255, 255, 255)
-COLOR_YELLOW = (255, 255, 0)
+C_BLUE = (0, 15, 140)
+C_WHITE = (255, 255, 255)
+C_YELLOW = (255, 255, 0)
+C_GREEN = (0, 128, 0)
+C_CYAN = (0, 128, 128)
 
 
 # E
@@ -43,7 +45,42 @@ ENTITY_HEALTH = {
     'Enemy1Shot': 1,
     'Enemy2': 60,
     'Enemy2Shot': 1,
+}
 
+ENTITY_DAMAGE = {
+    'Level1': 0,
+    'Level2': 0,
+    'Level3': 0,
+    'Level4': 0,
+    'Level5': 0,
+    'Level6': 0,
+    'Level7': 0,
+    'Player1': 1,
+    'Player1Shot': 25,
+    'Player2': 1,
+    'Player2Shot': 20,
+    'Enemy1': 1,
+    'Enemy1Shot': 20,
+    'Enemy2': 1,
+    'Enemy2Shot': 15,
+}
+
+ENTITY_SCORE = {
+    'Level1': 0,
+    'Level2': 0,
+    'Level3': 0,
+    'Level4': 0,
+    'Level5': 0,
+    'Level6': 0,
+    'Level7': 0,
+    'Player1': 0,
+    'Player1Shot': 0,
+    'Player2': 0,
+    'Player2Shot': 0,
+    'Enemy1': 100,
+    'Enemy1Shot': 0,
+    'Enemy2': 125,
+    'Enemy2Shot': 0,
 }
 
 ENTITY_SHOT_DELAY = {
@@ -77,6 +114,7 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
 
 # S
 SPAWN_TIME = 4000
+
 
 # W
 WIN_WIDTH = 576
