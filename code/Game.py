@@ -11,7 +11,7 @@ class Game:
         pygame.init()
         self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))
 
-    def run(self, ):
+    def run(self):
         while True:
              score = Score(self.window)
              menu = Menu(self.window)

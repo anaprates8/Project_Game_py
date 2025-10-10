@@ -1,4 +1,5 @@
 import pygame
+
 from code.Const import WIN_WIDTH, C_BLUE, MENU_OPTION, C_YELLOW, C_WHITE
 
 
@@ -9,7 +10,7 @@ class Menu:
         self.surf = pygame.image.load('./asset/Menu.png').convert_alpha()
         self.rect = self.surf.get_rect(left=0, top=0)
 
-    def run(self, ):
+    def run(self):
         menu_option = 0
         pygame.mixer_music.load('./asset/Menu.mp3')
         pygame.mixer_music.play(-1)
